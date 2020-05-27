@@ -1,0 +1,6 @@
+Program1: Rotation of Array
+
+array = input("Enter array:").split() k = int(input("Enter K value:"))
+print(array[len(array)-k:]+array[:len(array)-k]) Output :
+Enter array:2 5 8 6 2 4 6 Enter K value:2
+['4', '6', '2', '5', '8', '6', '2']
