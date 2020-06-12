@@ -1,0 +1,6 @@
+Program 1 : Python3 program to print the Minimum String length
+
+test_list=['python','java','c++']
+print("Theoriginallist:"+str(test_list))
+res=min(len(ele)foreleintest_list)
+print("Lengthofminimumstringis:"+str(res))
